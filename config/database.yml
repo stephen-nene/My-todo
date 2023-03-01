@@ -9,3 +9,7 @@ development:
 production:
   <<: *default
   database: db/todos-prod.sqlite3
+
+steve:
+  <<: *default
+  database: dev/bomboclat.sqlite3
