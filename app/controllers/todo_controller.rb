@@ -1,5 +1,5 @@
 class TodoController < Sinatra::Base
   get '/hello' do
-    "Welcome to TodoCoktroller"
+    "Welcome to TodoController"
   end
 end
